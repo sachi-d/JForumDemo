@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Built-By: andowson
+Build-Jdk: 1.7.0_171
+Created-By: Apache Maven 3.3.9
+

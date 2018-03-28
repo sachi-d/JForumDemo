@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mavenwebapp:war exploded">
+    <output-path>$PROJECT_DIR$/target/mavenwebapp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mavenwebapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-el-api:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-logging-juli:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt.core.compiler:ecj:4.5.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-api:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util-scan:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util:8.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:8.5.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/mavenwebapp/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mavenwebapp/web/Web" />
+    </root>
+  </artifact>
+</component>
